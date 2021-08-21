@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41172F6026CFC53300DC6A80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41172F5F26CFC53300DC6A80 /* AppDelegate.swift */; };
+		41172F6226CFC53300DC6A80 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41172F6126CFC53300DC6A80 /* SceneDelegate.swift */; };
+		41172F6426CFC53300DC6A80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41172F6326CFC53300DC6A80 /* ViewController.swift */; };
+		41172F6726CFC53300DC6A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41172F6526CFC53300DC6A80 /* Main.storyboard */; };
+		41172F6926CFC53500DC6A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41172F6826CFC53500DC6A80 /* Assets.xcassets */; };
+		41172F6C26CFC53500DC6A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41172F6A26CFC53500DC6A80 /* LaunchScreen.storyboard */; };
+		417C8A0926CFD911005F7B09 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0726CFD911005F7B09 /* Barlow-ExtraLight.ttf */; };
+		417C8A0A26CFD911005F7B09 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0826CFD911005F7B09 /* Barlow-Light.ttf */; };
+		417C8A0D26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0B26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf */; };
+		417C8A0E26CFD93F005F7B09 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0C26CFD93F005F7B09 /* BarlowCondensed-Light.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41172F5C26CFC53300DC6A80 /* BInaryveda UI Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BInaryveda UI Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41172F5F26CFC53300DC6A80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41172F6126CFC53300DC6A80 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41172F6326CFC53300DC6A80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		41172F6626CFC53300DC6A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41172F6826CFC53500DC6A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41172F6B26CFC53500DC6A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41172F6D26CFC53500DC6A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		417C8A0726CFD911005F7B09 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
+		417C8A0826CFD911005F7B09 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
+		417C8A0B26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
+		417C8A0C26CFD93F005F7B09 /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41172F5926CFC53300DC6A80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41172F5326CFC53300DC6A80 = {
+			isa = PBXGroup;
+			children = (
+				41172F5E26CFC53300DC6A80 /* BInaryveda UI Task */,
+				41172F5D26CFC53300DC6A80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41172F5D26CFC53300DC6A80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41172F5C26CFC53300DC6A80 /* BInaryveda UI Task.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41172F5E26CFC53300DC6A80 /* BInaryveda UI Task */ = {
+			isa = PBXGroup;
+			children = (
+				41172F7326CFC98A00DC6A80 /* Fonts */,
+				41172F5F26CFC53300DC6A80 /* AppDelegate.swift */,
+				41172F6126CFC53300DC6A80 /* SceneDelegate.swift */,
+				41172F6326CFC53300DC6A80 /* ViewController.swift */,
+				41172F6526CFC53300DC6A80 /* Main.storyboard */,
+				41172F6826CFC53500DC6A80 /* Assets.xcassets */,
+				41172F6A26CFC53500DC6A80 /* LaunchScreen.storyboard */,
+				41172F6D26CFC53500DC6A80 /* Info.plist */,
+			);
+			path = "BInaryveda UI Task";
+			sourceTree = "<group>";
+		};
+		41172F7326CFC98A00DC6A80 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				417C8A0B26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf */,
+				417C8A0C26CFD93F005F7B09 /* BarlowCondensed-Light.ttf */,
+				417C8A0726CFD911005F7B09 /* Barlow-ExtraLight.ttf */,
+				417C8A0826CFD911005F7B09 /* Barlow-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41172F5B26CFC53300DC6A80 /* BInaryveda UI Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41172F7026CFC53500DC6A80 /* Build configuration list for PBXNativeTarget "BInaryveda UI Task" */;
+			buildPhases = (
+				41172F5826CFC53300DC6A80 /* Sources */,
+				41172F5926CFC53300DC6A80 /* Frameworks */,
+				41172F5A26CFC53300DC6A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BInaryveda UI Task";
+			productName = "BInaryveda UI Task";
+			productReference = 41172F5C26CFC53300DC6A80 /* BInaryveda UI Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41172F5426CFC53300DC6A80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					41172F5B26CFC53300DC6A80 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 41172F5726CFC53300DC6A80 /* Build configuration list for PBXProject "BInaryveda UI Task" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41172F5326CFC53300DC6A80;
+			productRefGroup = 41172F5D26CFC53300DC6A80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41172F5B26CFC53300DC6A80 /* BInaryveda UI Task */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41172F5A26CFC53300DC6A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41172F6C26CFC53500DC6A80 /* LaunchScreen.storyboard in Resources */,
+				417C8A0A26CFD911005F7B09 /* Barlow-Light.ttf in Resources */,
+				417C8A0E26CFD93F005F7B09 /* BarlowCondensed-Light.ttf in Resources */,
+				417C8A0926CFD911005F7B09 /* Barlow-ExtraLight.ttf in Resources */,
+				417C8A0D26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf in Resources */,
+				41172F6926CFC53500DC6A80 /* Assets.xcassets in Resources */,
+				41172F6726CFC53300DC6A80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41172F5826CFC53300DC6A80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41172F6426CFC53300DC6A80 /* ViewController.swift in Sources */,
+				41172F6026CFC53300DC6A80 /* AppDelegate.swift in Sources */,
+				41172F6226CFC53300DC6A80 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41172F6526CFC53300DC6A80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41172F6626CFC53300DC6A80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41172F6A26CFC53500DC6A80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41172F6B26CFC53500DC6A80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41172F6E26CFC53500DC6A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41172F6F26CFC53500DC6A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41172F7126CFC53500DC6A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BInaryveda UI Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vasim.BInaryveda-UI-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41172F7226CFC53500DC6A80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "BInaryveda UI Task/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Vasim.BInaryveda-UI-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41172F5726CFC53300DC6A80 /* Build configuration list for PBXProject "BInaryveda UI Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41172F6E26CFC53500DC6A80 /* Debug */,
+				41172F6F26CFC53500DC6A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41172F7026CFC53500DC6A80 /* Build configuration list for PBXNativeTarget "BInaryveda UI Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41172F7126CFC53500DC6A80 /* Debug */,
+				41172F7226CFC53500DC6A80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41172F5426CFC53300DC6A80 /* Project object */;
+}
