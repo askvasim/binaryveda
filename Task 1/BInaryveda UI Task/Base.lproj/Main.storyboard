@@ -40,7 +40,7 @@
                                 <rect key="frame" x="0.0" y="44" width="390" height="800"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KhE-KA-gzv" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="4641"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="4692"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="cuR-ql-Rpj">
                                                 <rect key="frame" x="24" y="31" width="240" height="77"/>
@@ -56,7 +56,10 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAW-QJ-mX1">
-                                                <rect key="frame" x="40" y="477" width="310" height="44.333333333333371"/>
+                                                <rect key="frame" x="40" y="477" width="310" height="45.666666666666629"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="310" id="4M8-GL-05S"/>
+                                                </constraints>
                                                 <attributedString key="attributedText">
                                                     <fragment content="Lorem ipsum dolor sit amet, consectetur adipiscing elit">
                                                         <attributes>
@@ -67,9 +70,10 @@
                                                     </fragment>
                                                 </attributedString>
                                                 <nil key="highlightedColor"/>
+                                                <size key="shadowOffset" width="0.0" height="0.0"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="33" translatesAutoresizingMaskIntoConstraints="NO" id="Djf-b9-DAy" userLabel="registerStackView">
-                                                <rect key="frame" x="-7.3333333333333428" y="561.33333333333337" width="404.66666666666674" height="111"/>
+                                                <rect key="frame" x="-7.3333333333333428" y="562.66666666666663" width="404.66666666666674" height="112"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0cN-UL-y0g" userLabel="Register button">
                                                         <rect key="frame" x="0.0" y="0.0" width="404.66666666666669" height="50"/>
@@ -105,7 +109,7 @@
                                                                 <rect key="frame" x="135.00000000000003" y="0.0" width="269.66666666666674" height="50"/>
                                                                 <subviews>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yDh-M2-iua">
-                                                                        <rect key="frame" x="0.0" y="3.6666666666666288" width="269.66666666666669" height="35"/>
+                                                                        <rect key="frame" x="0.0" y="3" width="269.66666666666669" height="36"/>
                                                                         <attributedString key="attributedText">
                                                                             <fragment content="me as a collector">
                                                                                 <attributes>
@@ -128,17 +132,17 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="U1b-nl-Z0b" userLabel="track my application">
-                                                        <rect key="frame" x="79.999999999999986" y="83" width="244.66666666666663" height="28"/>
+                                                        <rect key="frame" x="108" y="83" width="189" height="29"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cornflowerBlue Button" translatesAutoresizingMaskIntoConstraints="NO" id="niY-XR-6KX">
-                                                                <rect key="frame" x="0.0" y="6.6666666666666288" width="15" height="15"/>
+                                                                <rect key="frame" x="0.0" y="7" width="15" height="15"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="15" id="1Pw-bA-Piu"/>
                                                                     <constraint firstAttribute="height" constant="15" id="Kcb-hr-6Yh"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMG-Ma-I1i">
-                                                                <rect key="frame" x="26.999999999999986" y="0.0" width="217.66666666666663" height="28"/>
+                                                                <rect key="frame" x="27" y="0.0" width="162" height="29"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment content="track my application">
                                                                         <attributes>
@@ -155,10 +159,10 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="90" translatesAutoresizingMaskIntoConstraints="NO" id="ajj-wj-Dqe" userLabel="bodyStackView">
-                                                <rect key="frame" x="40" y="742.33333333333326" width="310" height="3425.666666666667"/>
+                                                <rect key="frame" x="40" y="744.66666666666674" width="310" height="3472.333333333333"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="zaz-xf-Kaa" userLabel="01 Stack View">
-                                                        <rect key="frame" x="0.0" y="0.0" width="310" height="330.66666666666669"/>
+                                                        <rect key="frame" x="5.6666666666666572" y="0.0" width="299" height="335.33333333333331"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon01" translatesAutoresizingMaskIntoConstraints="NO" id="Htn-Sf-47a">
                                                                 <rect key="frame" x="0.0" y="0.0" width="90" height="93"/>
@@ -168,7 +172,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w0N-zi-mfH">
-                                                                <rect key="frame" x="0.0" y="122" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="122" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -182,7 +186,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1PI-qq-tgj">
-                                                                <rect key="frame" x="0.0" y="219.33333333333329" width="310" height="111.33333333333334"/>
+                                                                <rect key="frame" x="0.0" y="221.33333333333337" width="299" height="114"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
@@ -198,7 +202,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="3w8-NK-lXX" userLabel="02 Stack View">
-                                                        <rect key="frame" x="0.0" y="420.66666666666663" width="310" height="319.66666666666663"/>
+                                                        <rect key="frame" x="5.6666666666666572" y="425.33333333333337" width="299" height="324.33333333333337"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon02" translatesAutoresizingMaskIntoConstraints="NO" id="y9m-hi-32g">
                                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="82"/>
@@ -208,7 +212,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ei-cu-Xbp">
-                                                                <rect key="frame" x="0.0" y="111" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="111" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -222,7 +226,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="psQ-iC-WiD">
-                                                                <rect key="frame" x="0.0" y="208.33333333333329" width="310" height="111.33333333333334"/>
+                                                                <rect key="frame" x="0.0" y="210.33333333333326" width="299" height="114"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</string>
@@ -238,7 +242,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="cR5-2m-zOI" userLabel="03 Stack View">
-                                                        <rect key="frame" x="0.0" y="830.33333333333337" width="310" height="340.00000000000011"/>
+                                                        <rect key="frame" x="0.0" y="839.66666666666663" width="310" height="345.66666666666663"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon03" translatesAutoresizingMaskIntoConstraints="NO" id="x0W-j5-dUD">
                                                                 <rect key="frame" x="0.0" y="0.0" width="77" height="79.666666666666671"/>
@@ -248,7 +252,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JrI-yz-XeA">
-                                                                <rect key="frame" x="0.0" y="108.66666666666652" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="108.66666666666674" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -262,7 +266,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdh-Se-swF">
-                                                                <rect key="frame" x="0.0" y="206" width="310" height="134"/>
+                                                                <rect key="frame" x="0.0" y="208" width="310" height="137.66666666666663"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
@@ -278,7 +282,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="O8o-3V-gAg" userLabel="04 Stack View">
-                                                        <rect key="frame" x="0.0" y="1260.3333333333335" width="310" height="337.33333333333326"/>
+                                                        <rect key="frame" x="0.0" y="1275.3333333333335" width="310" height="343"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon04" translatesAutoresizingMaskIntoConstraints="NO" id="mcW-Rr-iCi">
                                                                 <rect key="frame" x="0.0" y="0.0" width="75" height="77"/>
@@ -288,7 +292,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uhc-Ic-GV3">
-                                                                <rect key="frame" x="0.0" y="105.99999999999977" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="106" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -302,7 +306,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oXh-lC-OGF">
-                                                                <rect key="frame" x="0.0" y="203.33333333333326" width="310" height="134"/>
+                                                                <rect key="frame" x="0.0" y="205.33333333333348" width="310" height="137.66666666666663"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
@@ -318,7 +322,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="fdz-Wo-kZd" userLabel="05 Stack View">
-                                                        <rect key="frame" x="0.0" y="1687.6666666666665" width="310" height="339.33333333333326"/>
+                                                        <rect key="frame" x="0.0" y="1708.3333333333335" width="310" height="345"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon05" translatesAutoresizingMaskIntoConstraints="NO" id="lE3-Tl-VWk">
                                                                 <rect key="frame" x="0.0" y="0.0" width="83" height="79"/>
@@ -328,7 +332,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dFC-L4-t8Q">
-                                                                <rect key="frame" x="0.0" y="108" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="108" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -342,7 +346,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AMr-UM-a3K">
-                                                                <rect key="frame" x="0.0" y="205.33333333333348" width="310" height="134"/>
+                                                                <rect key="frame" x="0.0" y="207.33333333333348" width="310" height="137.66666666666663"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
@@ -358,7 +362,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="qWR-UT-fnW" userLabel="06 Stack View">
-                                                        <rect key="frame" x="0.0" y="2117" width="310" height="392.66666666666652"/>
+                                                        <rect key="frame" x="0.0" y="2143.3333333333335" width="310" height="400"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon06" translatesAutoresizingMaskIntoConstraints="NO" id="8lg-jH-f49">
                                                                 <rect key="frame" x="0.0" y="0.0" width="74" height="64"/>
@@ -368,7 +372,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIJ-lB-M83">
-                                                                <rect key="frame" x="0.0" y="93" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="93" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -382,7 +386,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMu-hk-MAe">
-                                                                <rect key="frame" x="0.0" y="190.33333333333303" width="310" height="202.33333333333337"/>
+                                                                <rect key="frame" x="0.0" y="192.33333333333348" width="310" height="207.66666666666663"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
@@ -398,7 +402,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="TOA-l9-bQ7" userLabel="07 Stack View">
-                                                        <rect key="frame" x="0.0" y="2599.6666666666665" width="310" height="329.33333333333348"/>
+                                                        <rect key="frame" x="0.0" y="2633.3333333333335" width="310" height="335"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon07" translatesAutoresizingMaskIntoConstraints="NO" id="yJv-Sq-IXy">
                                                                 <rect key="frame" x="0.0" y="0.0" width="36" height="69"/>
@@ -408,7 +412,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ski-rv-kNY">
-                                                                <rect key="frame" x="0.0" y="98" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="98" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -422,7 +426,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dgd-kc-Lwd">
-                                                                <rect key="frame" x="0.0" y="195.33333333333348" width="310" height="134"/>
+                                                                <rect key="frame" x="0.0" y="197.33333333333348" width="310" height="137.66666666666663"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
@@ -438,7 +442,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="29" translatesAutoresizingMaskIntoConstraints="NO" id="T8B-Nb-LkU" userLabel="08 Stack View">
-                                                        <rect key="frame" x="0.0" y="3019" width="310" height="406.66666666666652"/>
+                                                        <rect key="frame" x="0.0" y="3058.3333333333335" width="310" height="414"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon08" translatesAutoresizingMaskIntoConstraints="NO" id="XON-8l-Anf">
                                                                 <rect key="frame" x="0.0" y="0.0" width="43" height="78"/>
@@ -448,7 +452,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SLV-Wz-uPl">
-                                                                <rect key="frame" x="0.0" y="107" width="154.33333333333334" height="68.333333333333314"/>
+                                                                <rect key="frame" x="0.0" y="107" width="116.33333333333333" height="70.333333333333314"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">lorem ipsum
@@ -462,7 +466,7 @@ is used</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="naE-qV-lzb">
-                                                                <rect key="frame" x="0.0" y="204.33333333333303" width="310" height="202.33333333333337"/>
+                                                                <rect key="frame" x="0.0" y="206.33333333333348" width="310" height="207.66666666666663"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment>
                                                                         <string key="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
@@ -480,7 +484,7 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="9QH-NZ-tLE" userLabel="socialMediaStackView">
-                                                <rect key="frame" x="35" y="4253" width="320" height="117"/>
+                                                <rect key="frame" x="35" y="4302" width="320" height="117"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="hAY-8Q-qCm" userLabel="Social Media SV">
                                                         <rect key="frame" x="123" y="0.0" width="74" height="32"/>
@@ -521,22 +525,22 @@ is used</string>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="KuU-fk-jzV">
-                                                <rect key="frame" x="35" y="4405" width="76" height="116"/>
+                                                <rect key="frame" x="35" y="4454" width="57.333333333333343" height="118"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="About Us." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GUd-vn-Dns">
-                                                        <rect key="frame" x="0.0" y="0.0" width="76" height="20"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="57.333333333333336" height="20.666666666666668"/>
                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Medium" family="Barlow Condensed" pointSize="16"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Team." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g05-eQ-PAi">
-                                                        <rect key="frame" x="0.0" y="48" width="76" height="20"/>
+                                                        <rect key="frame" x="0.0" y="48.66666666666697" width="57.333333333333336" height="20.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Medium" family="Barlow Condensed" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reach us." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RRh-dP-gxS">
-                                                        <rect key="frame" x="0.0" y="96" width="76" height="20"/>
+                                                        <rect key="frame" x="0.0" y="97.33333333333303" width="57.333333333333336" height="20.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Medium" family="Barlow Condensed" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -547,22 +551,22 @@ is used</string>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="28" translatesAutoresizingMaskIntoConstraints="NO" id="e0g-J5-tPw">
-                                                <rect key="frame" x="245" y="4405" width="110" height="116"/>
+                                                <rect key="frame" x="269.33333333333331" y="4454" width="85.666666666666686" height="118"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Affiliattions." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HVv-YY-uYd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="20"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="85.666666666666671" height="20.666666666666668"/>
                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Medium" family="Barlow Condensed" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Disclaimers." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tO3-p8-nnM">
-                                                        <rect key="frame" x="0.0" y="48" width="110" height="20"/>
+                                                        <rect key="frame" x="0.0" y="48.66666666666697" width="85.666666666666671" height="20.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Medium" family="Barlow Condensed" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Privacy Policy." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gbh-19-t4h">
-                                                        <rect key="frame" x="0.0" y="96" width="110" height="20"/>
+                                                        <rect key="frame" x="0.0" y="97.33333333333303" width="85.666666666666671" height="20.666666666666671"/>
                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Medium" family="Barlow Condensed" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
@@ -570,7 +574,7 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="tPB-eu-yqc" userLabel="copyRightStackView">
-                                                <rect key="frame" x="35" y="4556" width="320" height="50"/>
+                                                <rect key="frame" x="35" y="4607" width="320" height="50"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jHa-lV-Idz" userLabel="Strock">
                                                         <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
@@ -580,7 +584,7 @@ is used</string>
                                                         </constraints>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="cui-ZG-5ps">
-                                                        <rect key="frame" x="42" y="26" width="236" height="24"/>
+                                                        <rect key="frame" x="69.666666666666671" y="26" width="180.66666666666663" height="24"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Copyright" translatesAutoresizingMaskIntoConstraints="NO" id="LKA-KA-VMH">
                                                                 <rect key="frame" x="0.0" y="0.0" width="24" height="24"/>
@@ -590,7 +594,7 @@ is used</string>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOU-nL-Mdd">
-                                                                <rect key="frame" x="29" y="2.6666666666669698" width="207" height="18.666666666666668"/>
+                                                                <rect key="frame" x="28.999999999999986" y="2.3333333333330302" width="151.66666666666663" height="19.333333333333332"/>
                                                                 <attributedString key="attributedText">
                                                                     <fragment content=" Content Copyright reserved.">
                                                                         <attributes>
@@ -614,11 +618,9 @@ is used</string>
                                         <constraints>
                                             <constraint firstItem="Djf-b9-DAy" firstAttribute="top" secondItem="RAW-QJ-mX1" secondAttribute="bottom" constant="40" id="78g-df-yKM"/>
                                             <constraint firstItem="cuR-ql-Rpj" firstAttribute="leading" secondItem="KhE-KA-gzv" secondAttribute="leading" constant="24" id="BCT-aT-QlA"/>
-                                            <constraint firstItem="RAW-QJ-mX1" firstAttribute="leading" secondItem="KhE-KA-gzv" secondAttribute="leading" constant="40" id="BqS-6l-P46"/>
                                             <constraint firstItem="e0g-J5-tPw" firstAttribute="top" secondItem="9QH-NZ-tLE" secondAttribute="bottom" constant="35" id="Cqk-2A-7jg"/>
                                             <constraint firstItem="RAW-QJ-mX1" firstAttribute="top" secondItem="cmC-qC-JaQ" secondAttribute="bottom" constant="33" id="H90-09-tvz"/>
                                             <constraint firstItem="cmC-qC-JaQ" firstAttribute="top" secondItem="cuR-ql-Rpj" secondAttribute="bottom" constant="7" id="HEO-21-Mdh"/>
-                                            <constraint firstAttribute="trailing" secondItem="RAW-QJ-mX1" secondAttribute="trailing" constant="40" id="KfF-z3-wzj"/>
                                             <constraint firstItem="KuU-fk-jzV" firstAttribute="leading" secondItem="KhE-KA-gzv" secondAttribute="leading" constant="35" id="MuE-1N-tpx"/>
                                             <constraint firstItem="9QH-NZ-tLE" firstAttribute="top" secondItem="ajj-wj-Dqe" secondAttribute="bottom" constant="85" id="Pbp-1o-SDk"/>
                                             <constraint firstItem="cuR-ql-Rpj" firstAttribute="top" secondItem="KhE-KA-gzv" secondAttribute="top" constant="31" id="SXT-R9-enl"/>
@@ -675,7 +677,7 @@ is used</string>
                                 <rect key="frame" x="0.0" y="44" width="390" height="800"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cID-Qw-AzA">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1171"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="1175.3333333333333"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AGC_logo3" translatesAutoresizingMaskIntoConstraints="NO" id="sI1-4R-yxq">
                                                 <rect key="frame" x="25.000000000000007" y="26" width="85.666666666666686" height="28"/>
@@ -719,13 +721,13 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="nxR-YZ-t1L" userLabel="profileStackView">
-                                                <rect key="frame" x="44.666666666666657" y="89" width="301" height="176"/>
+                                                <rect key="frame" x="58" y="89.000000000000014" width="274.33333333333331" height="177.33333333333337"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="5Hh-fJ-AAp" userLabel="uploadButtonStackView">
-                                                        <rect key="frame" x="0.0" y="59.333333333333343" width="45.666666666666664" height="57.333333333333343"/>
+                                                        <rect key="frame" x="0.0" y="59.666666666666657" width="32.333333333333336" height="58"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDo-cF-XxV" userLabel="uploadButton">
-                                                                <rect key="frame" x="8.6666666666666714" y="0.0" width="28" height="36"/>
+                                                                <rect key="frame" x="2" y="0.0" width="28" height="36"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="28" id="W5E-h3-c2w"/>
                                                                     <constraint firstAttribute="height" constant="36" id="a44-CA-d8K"/>
@@ -733,7 +735,7 @@ is used</string>
                                                                 <state key="normal" image="upload_Blue"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upload" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JUo-Eg-lV6">
-                                                                <rect key="frame" x="0.0" y="41" width="45.666666666666664" height="16.333333333333329"/>
+                                                                <rect key="frame" x="0.0" y="41" width="32.333333333333336" height="17"/>
                                                                 <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="14"/>
                                                                 <color key="textColor" name="CornflowerBlue"/>
                                                                 <nil key="highlightedColor"/>
@@ -741,10 +743,10 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="mmy-yy-OYZ" userLabel="profilePictureStackView">
-                                                        <rect key="frame" x="89.6666666666667" y="0.0" width="140.33333333333337" height="176"/>
+                                                        <rect key="frame" x="76.333333333333343" y="0.0" width="127" height="177.33333333333334"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile_picture" translatesAutoresizingMaskIntoConstraints="NO" id="lHG-6s-ahq">
-                                                                <rect key="frame" x="6.6666666666666572" y="0.0" width="127" height="127"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="127" height="127"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="127" id="DOE-2h-PHs"/>
                                                                     <constraint firstAttribute="width" constant="127" id="Vff-8U-haa"/>
@@ -756,7 +758,7 @@ is used</string>
                                                                 </userDefinedRuntimeAttributes>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="john.doe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSi-fV-dYV">
-                                                                <rect key="frame" x="0.0" y="134" width="140.33333333333334" height="42"/>
+                                                                <rect key="frame" x="13.333333333333314" y="134" width="100.33333333333333" height="43.333333333333343"/>
                                                                 <fontDescription key="fontDescription" name="BarlowCondensed-ExtraLight" family="Barlow Condensed" pointSize="36"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
@@ -764,7 +766,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="y0p-Iu-f4U" userLabel="editButtonStackView">
-                                                        <rect key="frame" x="274" y="63.333333333333343" width="27" height="49.333333333333343"/>
+                                                        <rect key="frame" x="247.33333333333331" y="63.666666666666657" width="27" height="50"/>
                                                         <subviews>
                                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RY9-vW-BbJ" userLabel="editButton">
                                                                 <rect key="frame" x="0.0" y="0.0" width="27" height="28"/>
@@ -775,7 +777,7 @@ is used</string>
                                                                 <state key="normal" image="edit"/>
                                                             </button>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vF8-Lm-CoQ">
-                                                                <rect key="frame" x="1" y="33" width="24.666666666666668" height="16.333333333333329"/>
+                                                                <rect key="frame" x="4.3333333333333712" y="33" width="18.333333333333332" height="17"/>
                                                                 <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="14"/>
                                                                 <color key="textColor" name="CornflowerBlue"/>
                                                                 <nil key="highlightedColor"/>
@@ -785,19 +787,19 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="MpB-Ry-HJr" userLabel="dashboardStackView">
-                                                <rect key="frame" x="20" y="290" width="350" height="127.33333333333331"/>
+                                                <rect key="frame" x="20" y="291.33333333333331" width="350" height="129"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="210" translatesAutoresizingMaskIntoConstraints="NO" id="Cxh-5H-qvH" userLabel="myDashboardStackView">
-                                                        <rect key="frame" x="0.33333333333334281" y="0.0" width="349.33333333333326" height="31"/>
+                                                        <rect key="frame" x="13.333333333333343" y="0.0" width="323.66666666666663" height="31"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My dashboard" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ng8-kv-XAd">
-                                                                <rect key="frame" x="0.0" y="0.0" width="90.333333333333329" height="31"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="64.666666666666671" height="31"/>
                                                                 <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="14"/>
                                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gtn-NN-kvM">
-                                                                <rect key="frame" x="300.33333333333337" y="0.0" width="51" height="31"/>
+                                                                <rect key="frame" x="274.66666666666669" y="0.0" width="51" height="31"/>
                                                             </switch>
                                                         </subviews>
                                                     </stackView>
@@ -809,53 +811,53 @@ is used</string>
                                                         </constraints>
                                                     </view>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="85" translatesAutoresizingMaskIntoConstraints="NO" id="RWe-iw-TcA" userLabel="followersStackView">
-                                                        <rect key="frame" x="0.0" y="64" width="350" height="46.333333333333343"/>
+                                                        <rect key="frame" x="22" y="64" width="306.33333333333331" height="48"/>
                                                         <subviews>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="sZu-JX-Lrq" userLabel="followersStackView">
-                                                                <rect key="frame" x="0.0" y="0.0" width="55.333333333333336" height="46.333333333333336"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="sZu-JX-Lrq" userLabel="followersStackView">
+                                                                <rect key="frame" x="0.0" y="0.0" width="43.666666666666664" height="48"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="2.3K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mh-ZQ-bOe">
-                                                                        <rect key="frame" x="3" y="0.0" width="49.666666666666664" height="28"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.3K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3mh-ZQ-bOe">
+                                                                        <rect key="frame" x="4.6666666666666643" y="0.0" width="34" height="29"/>
                                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="24"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vub-UG-EvX">
-                                                                        <rect key="frame" x="0.0" y="30" width="55.333333333333336" height="16.333333333333329"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Followers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vub-UG-EvX">
+                                                                        <rect key="frame" x="0.0" y="31" width="43.666666666666664" height="17"/>
                                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="14"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lxu-Vg-63Z" userLabel="artworksStackView">
-                                                                <rect key="frame" x="140.33333333333334" y="0.0" width="56" height="46.333333333333336"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="lxu-Vg-63Z" userLabel="artworksStackView">
+                                                                <rect key="frame" x="128.66666666666666" y="0.0" width="41" height="48"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLK-gS-EH4">
-                                                                        <rect key="frame" x="14.666666666666657" y="0.0" width="27" height="28"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLK-gS-EH4">
+                                                                        <rect key="frame" x="10.333333333333341" y="0.0" width="20.333333333333329" height="29"/>
                                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="24"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Artworks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haD-c3-xyh">
-                                                                        <rect key="frame" x="0.0" y="30" width="56" height="16.333333333333329"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Artworks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="haD-c3-xyh">
+                                                                        <rect key="frame" x="0.0" y="31" width="41" height="17"/>
                                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="14"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ASF-I5-XCM" userLabel="exhibitionsStackView">
-                                                                <rect key="frame" x="281.33333333333331" y="0.0" width="68.666666666666686" height="46.333333333333336"/>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="ASF-I5-XCM" userLabel="exhibitionsStackView">
+                                                                <rect key="frame" x="254.66666666666666" y="0.0" width="51.666666666666657" height="48"/>
                                                                 <subviews>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rc-uu-gjM">
-                                                                        <rect key="frame" x="21" y="0.0" width="27" height="28"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="21" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rc-uu-gjM">
+                                                                        <rect key="frame" x="18.333333333333314" y="0.0" width="14.666666666666664" height="29"/>
                                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="24"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
-                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Exhibitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U9-qC-mcc">
-                                                                        <rect key="frame" x="0.0" y="30" width="68.666666666666671" height="16.333333333333329"/>
+                                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exhibitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1U9-qC-mcc">
+                                                                        <rect key="frame" x="0.0" y="31" width="51.666666666666664" height="17"/>
                                                                         <fontDescription key="fontDescription" name="BarlowCondensed-Light" family="Barlow Condensed" pointSize="14"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -865,7 +867,7 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xOv-wI-XVO" userLabel="stroke">
-                                                        <rect key="frame" x="0.0" y="126.33333333333331" width="350" height="1"/>
+                                                        <rect key="frame" x="0.0" y="128" width="350" height="1"/>
                                                         <color key="backgroundColor" systemColor="systemGray4Color"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="1" id="gnU-sE-7qz"/>
@@ -880,20 +882,20 @@ is used</string>
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="5cu-4f-RHX" userLabel="likeStackView">
-                                                <rect key="frame" x="97" y="437.33333333333331" width="196" height="21"/>
+                                                <rect key="frame" x="102.00000000000001" y="440.33333333333331" width="186.33333333333337" height="21.666666666666686"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="GZI-ed-HHY" userLabel="likeStackView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="54.333333333333336" height="21"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="21.666666666666668"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="u4L-Ia-ya6">
-                                                                <rect key="frame" x="0.0" y="2.6666666666666856" width="19" height="16"/>
+                                                                <rect key="frame" x="0.0" y="3" width="19" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="19" id="DE1-dx-T2U"/>
                                                                     <constraint firstAttribute="height" constant="16" id="Kv8-lL-1If"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="120" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvT-gt-nJb">
-                                                                <rect key="frame" x="24" y="0.0" width="30.333333333333329" height="21"/>
+                                                                <rect key="frame" x="24" y="0.0" width="26" height="21.666666666666668"/>
                                                                 <fontDescription key="fontDescription" name="Barlow-ExtraLight" family="Barlow" pointSize="18"/>
                                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -901,17 +903,17 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="r1U-13-Mer" userLabel="arrowStackView">
-                                                        <rect key="frame" x="70.333333333333343" y="0.0" width="53.333333333333343" height="21"/>
+                                                        <rect key="frame" x="66" y="0.0" width="50.666666666666657" height="21.666666666666668"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="PRX-He-ENP">
-                                                                <rect key="frame" x="0.0" y="2.6666666666666856" width="16" height="16"/>
+                                                                <rect key="frame" x="0.0" y="3" width="16" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="16" id="9Od-3p-PTo"/>
                                                                     <constraint firstAttribute="height" constant="16" id="FAr-bq-bfb"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="43K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWe-CD-RlY">
-                                                                <rect key="frame" x="21.000000000000004" y="0.0" width="32.333333333333343" height="21"/>
+                                                                <rect key="frame" x="21" y="0.0" width="29.666666666666671" height="21.666666666666668"/>
                                                                 <fontDescription key="fontDescription" name="Barlow-ExtraLight" family="Barlow" pointSize="18"/>
                                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -919,17 +921,17 @@ is used</string>
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hFF-FB-Dvi" userLabel="shareStackView">
-                                                        <rect key="frame" x="139.66666666666666" y="0.0" width="56.333333333333343" height="21"/>
+                                                        <rect key="frame" x="132.66666666666666" y="0.0" width="53.666666666666657" height="21.666666666666668"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="share" translatesAutoresizingMaskIntoConstraints="NO" id="r7o-YY-LRI">
-                                                                <rect key="frame" x="0.0" y="2.6666666666666856" width="14" height="16"/>
+                                                                <rect key="frame" x="0.0" y="3" width="14" height="16"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="16" id="5Gq-Zo-ABD"/>
                                                                     <constraint firstAttribute="width" constant="14" id="hHl-ij-btm"/>
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2.3K" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ich-K3-U0F">
-                                                                <rect key="frame" x="19.000000000000004" y="0.0" width="37.333333333333343" height="21"/>
+                                                                <rect key="frame" x="18.999999999999996" y="0.0" width="34.666666666666657" height="21.666666666666668"/>
                                                                 <fontDescription key="fontDescription" name="Barlow-ExtraLight" family="Barlow" pointSize="18"/>
                                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -939,7 +941,7 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="7dW-68-2fK">
-                                                <rect key="frame" x="20" y="478.33333333333337" width="350" height="50.333333333333371"/>
+                                                <rect key="frame" x="20" y="482" width="350" height="50.333333333333371"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MsF-1V-k37" userLabel="purple">
                                                         <rect key="frame" x="0.0" y="0.0" width="70" height="50.333333333333336"/>
@@ -978,16 +980,16 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3le-4t-B49" userLabel="upload&amp;StrokeStackView">
-                                                <rect key="frame" x="31.333333333333343" y="548.66666666666663" width="327.33333333333326" height="57.333333333333371"/>
+                                                <rect key="frame" x="33.666666666666657" y="552.33333333333337" width="322.66666666666674" height="58"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" alignment="bottom" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="KQt-ng-xgZ" userLabel="uploadStackView">
-                                                        <rect key="frame" x="0.0" y="0.0" width="327.33333333333331" height="57.333333333333336"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="322.66666666666669" height="58"/>
                                                         <subviews>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="iDQ-Xd-NcN" userLabel="uploadStackView">
-                                                                <rect key="frame" x="0.0" y="0.0" width="52.666666666666664" height="57.333333333333336"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="49.666666666666664" height="58"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mbf-j0-eR1">
-                                                                        <rect key="frame" x="11.666666666666668" y="0.0" width="29.000000000000004" height="35"/>
+                                                                        <rect key="frame" x="10.333333333333336" y="0.0" width="29" height="35"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="width" constant="29" id="A5W-xl-VNE"/>
                                                                             <constraint firstAttribute="height" constant="35" id="bAh-bs-Vry"/>
@@ -995,7 +997,7 @@ is used</string>
                                                                         <state key="normal" image="upload"/>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uploads" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eZ7-MO-a4c">
-                                                                        <rect key="frame" x="0.0" y="41" width="52.666666666666664" height="16.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="41" width="49.666666666666664" height="17"/>
                                                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="14"/>
                                                                         <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <nil key="highlightedColor"/>
@@ -1003,7 +1005,7 @@ is used</string>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="2x9-Zx-WPf" userLabel="exhibitionsStackView">
-                                                                <rect key="frame" x="128.66666666666666" y="4" width="68.666666666666657" height="53.333333333333336"/>
+                                                                <rect key="frame" x="126" y="4" width="69" height="54"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjN-VN-FBP">
                                                                         <rect key="frame" x="19" y="0.0" width="31" height="31"/>
@@ -1014,18 +1016,18 @@ is used</string>
                                                                         <state key="normal" image="exibitions"/>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Exhibitions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ddx-77-sQv">
-                                                                        <rect key="frame" x="0.0" y="37" width="68.666666666666671" height="16.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="37" width="69" height="17"/>
                                                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="14"/>
-                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <color key="textColor" systemColor="systemGray2Color"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
                                                             </stackView>
                                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="RTt-zS-iPm" userLabel="revenueStackView">
-                                                                <rect key="frame" x="272.33333333333337" y="7.0000000000000036" width="55" height="50.333333333333343"/>
+                                                                <rect key="frame" x="270" y="7" width="52.666666666666686" height="51"/>
                                                                 <subviews>
                                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="94n-On-phg">
-                                                                        <rect key="frame" x="11" y="0.0" width="33" height="28"/>
+                                                                        <rect key="frame" x="10" y="0.0" width="33" height="28"/>
                                                                         <constraints>
                                                                             <constraint firstAttribute="height" constant="28" id="hug-VN-I38"/>
                                                                             <constraint firstAttribute="width" constant="33" id="tnr-Gr-NWp"/>
@@ -1033,9 +1035,9 @@ is used</string>
                                                                         <state key="normal" image="revenue"/>
                                                                     </button>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Revenue" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pk6-9c-xpA">
-                                                                        <rect key="frame" x="0.0" y="34" width="55" height="16.333333333333329"/>
+                                                                        <rect key="frame" x="0.0" y="34" width="52.666666666666664" height="17"/>
                                                                         <fontDescription key="fontDescription" name="Barlow-Medium" family="Barlow" pointSize="14"/>
-                                                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <color key="textColor" systemColor="systemGray2Color"/>
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                 </subviews>
@@ -1045,7 +1047,7 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="VJT-w5-3k6" userLabel="strokStackView">
-                                                <rect key="frame" x="25" y="613" width="340" height="2"/>
+                                                <rect key="frame" x="25" y="617.33333333333337" width="340" height="2"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8TU-Jt-pYt">
                                                         <rect key="frame" x="0.0" y="0.0" width="65" height="2"/>
@@ -1072,7 +1074,7 @@ is used</string>
                                                 </subviews>
                                             </stackView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WcD-Ij-Y2L">
-                                                <rect key="frame" x="20" y="635" width="350" height="516"/>
+                                                <rect key="frame" x="20" y="639.33333333333337" width="350" height="516.00000000000011"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="516" id="oxI-CH-u6O"/>
@@ -1228,6 +1230,9 @@ is used</string>
         </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray2Color">
+            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray4Color">
             <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
