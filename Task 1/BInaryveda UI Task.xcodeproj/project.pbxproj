@@ -74,8 +74,8 @@
 		41172F5E26CFC53300DC6A80 /* BInaryveda UI Task */ = {
 			isa = PBXGroup;
 			children = (
-				41172F7326CFC98A00DC6A80 /* Fonts */,
 				41172F5F26CFC53300DC6A80 /* AppDelegate.swift */,
+				41172F7326CFC98A00DC6A80 /* Fonts */,
 				41172F6126CFC53300DC6A80 /* SceneDelegate.swift */,
 				41172F6326CFC53300DC6A80 /* ViewController.swift */,
 				41172F6526CFC53300DC6A80 /* Main.storyboard */,
