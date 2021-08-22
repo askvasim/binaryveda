@@ -13,10 +13,15 @@
 		41172F6726CFC53300DC6A80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41172F6526CFC53300DC6A80 /* Main.storyboard */; };
 		41172F6926CFC53500DC6A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41172F6826CFC53500DC6A80 /* Assets.xcassets */; };
 		41172F6C26CFC53500DC6A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41172F6A26CFC53500DC6A80 /* LaunchScreen.storyboard */; };
+		412B182526D11BFF0053AD44 /* SecondViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 412B182426D11BFF0053AD44 /* SecondViewVC.swift */; };
 		417C8A0926CFD911005F7B09 /* Barlow-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0726CFD911005F7B09 /* Barlow-ExtraLight.ttf */; };
 		417C8A0A26CFD911005F7B09 /* Barlow-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0826CFD911005F7B09 /* Barlow-Light.ttf */; };
 		417C8A0D26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0B26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf */; };
 		417C8A0E26CFD93F005F7B09 /* BarlowCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 417C8A0C26CFD93F005F7B09 /* BarlowCondensed-Light.ttf */; };
+		4191CE3F26D222FD00D71C2A /* BarlowCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 412B182326D10E980053AD44 /* BarlowCondensed-Medium.ttf */; };
+		4191CE4026D2230500D71C2A /* Barlow-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 412B182226D10E6B0053AD44 /* Barlow-Medium.ttf */; };
+		419B24B426D1B8A400E0DDEC /* data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419B24B326D1B8A400E0DDEC /* data.swift */; };
+		41A08C1A26D1963900BAEBA3 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41A08C1926D1963900BAEBA3 /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +33,15 @@
 		41172F6826CFC53500DC6A80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		41172F6B26CFC53500DC6A80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		41172F6D26CFC53500DC6A80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		412B182226D10E6B0053AD44 /* Barlow-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Medium.ttf"; sourceTree = "<group>"; };
+		412B182326D10E980053AD44 /* BarlowCondensed-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Medium.ttf"; sourceTree = "<group>"; };
+		412B182426D11BFF0053AD44 /* SecondViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewVC.swift; sourceTree = "<group>"; };
 		417C8A0726CFD911005F7B09 /* Barlow-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-ExtraLight.ttf"; sourceTree = "<group>"; };
 		417C8A0826CFD911005F7B09 /* Barlow-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Barlow-Light.ttf"; sourceTree = "<group>"; };
 		417C8A0B26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-ExtraLight.ttf"; sourceTree = "<group>"; };
 		417C8A0C26CFD93F005F7B09 /* BarlowCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BarlowCondensed-Light.ttf"; sourceTree = "<group>"; };
+		419B24B326D1B8A400E0DDEC /* data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = data.swift; sourceTree = "<group>"; };
+		41A08C1926D1963900BAEBA3 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +82,9 @@
 				41172F6826CFC53500DC6A80 /* Assets.xcassets */,
 				41172F6A26CFC53500DC6A80 /* LaunchScreen.storyboard */,
 				41172F6D26CFC53500DC6A80 /* Info.plist */,
+				412B182426D11BFF0053AD44 /* SecondViewVC.swift */,
+				41A08C1926D1963900BAEBA3 /* CollectionViewCell.swift */,
+				419B24B326D1B8A400E0DDEC /* data.swift */,
 			);
 			path = "BInaryveda UI Task";
 			sourceTree = "<group>";
@@ -79,6 +92,8 @@
 		41172F7326CFC98A00DC6A80 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				412B182326D10E980053AD44 /* BarlowCondensed-Medium.ttf */,
+				412B182226D10E6B0053AD44 /* Barlow-Medium.ttf */,
 				417C8A0B26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf */,
 				417C8A0C26CFD93F005F7B09 /* BarlowCondensed-Light.ttf */,
 				417C8A0726CFD911005F7B09 /* Barlow-ExtraLight.ttf */,
@@ -145,11 +160,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				41172F6C26CFC53500DC6A80 /* LaunchScreen.storyboard in Resources */,
+				4191CE4026D2230500D71C2A /* Barlow-Medium.ttf in Resources */,
 				417C8A0A26CFD911005F7B09 /* Barlow-Light.ttf in Resources */,
 				417C8A0E26CFD93F005F7B09 /* BarlowCondensed-Light.ttf in Resources */,
 				417C8A0926CFD911005F7B09 /* Barlow-ExtraLight.ttf in Resources */,
 				417C8A0D26CFD93F005F7B09 /* BarlowCondensed-ExtraLight.ttf in Resources */,
 				41172F6926CFC53500DC6A80 /* Assets.xcassets in Resources */,
+				4191CE3F26D222FD00D71C2A /* BarlowCondensed-Medium.ttf in Resources */,
 				41172F6726CFC53300DC6A80 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +178,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41A08C1A26D1963900BAEBA3 /* CollectionViewCell.swift in Sources */,
+				419B24B426D1B8A400E0DDEC /* data.swift in Sources */,
 				41172F6426CFC53300DC6A80 /* ViewController.swift in Sources */,
+				412B182526D11BFF0053AD44 /* SecondViewVC.swift in Sources */,
 				41172F6026CFC53300DC6A80 /* AppDelegate.swift in Sources */,
 				41172F6226CFC53300DC6A80 /* SceneDelegate.swift in Sources */,
 			);
